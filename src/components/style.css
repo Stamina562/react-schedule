@@ -1,0 +1,50 @@
+.card{
+    display: flex;
+    flex-direction: column;
+}
+.lists {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.list:not(:last-child) {
+    border-bottom: 1px solid grey;
+}
+.list-left {
+    display: flex;
+    flex-direction: row;
+}
+.list-content {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid grey;
+    padding-left: 10px;
+}
+.list-content-top{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+.list-date-day {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+}
+.list-date-date {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.list-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
