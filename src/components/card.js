@@ -62,6 +62,7 @@ export default function Card({ date, mobile }) {
             <FontAwesomeIcon icon={faChevronRight} />
         </div>
         <div> Added bar</div>
+        <div> second bar</div>
       </div>
     );
   };
