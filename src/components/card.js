@@ -61,6 +61,7 @@ export default function Card({ date, mobile }) {
             {moment(date).format("hh:mm:ss a")} &nbsp;
             <FontAwesomeIcon icon={faChevronRight} />
         </div>
+        <div> Added bar</div>
       </div>
     );
   };
